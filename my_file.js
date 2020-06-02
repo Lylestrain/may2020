@@ -1,5 +1,5 @@
 let x = 'testing'
 
-//alert('first')
+ alert('first')
 
  alert(x);
