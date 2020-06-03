@@ -6,4 +6,36 @@
 header {
     background-color: black;
     color: burlywood;
+    border-bottom: 5px solid gold;
+}
+#subtitle {
+    margin-left: 1.5em;
 } 
+button {
+    margin: 12px;
+}
+#theDude {
+    padding: 50px;
+    background-color: greenyellow;
+}
+button {
+    padding: 15px;
+    font-size: 24px;
+    border: 5px solid floralwhite;
+    border-radius: 5px;
+}
+#one {
+    background-color: rgb(139, 132, 34);
+}
+#two {
+    background-color: rgb(44, 138, 44);
+}
+#three {
+    background-color: grey;
+}
+#four {
+    background-color: hotpink;
+}
+#five {
+    background-color: dodgerblue;
+}
