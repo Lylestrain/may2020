@@ -47,3 +47,10 @@ let x = 'testing'
  document.getElementById("app").addEventListener("click", deleteBox);
 
  document.getElementById("btn").addEventListener("click", addBox);
+
+
+ function changeColor() {
+     let color =document.getElementById('colorInputColor').nodeValue;
+     document.styleSheets.backgroundColor = color;
+     document.getElementById('colorInputText').value = color;
+ }
