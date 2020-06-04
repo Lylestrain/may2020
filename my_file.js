@@ -50,7 +50,7 @@ let x = 'testing'
 
 
  function changeColor() {
-     let color =document.getElementById('colorInputColor').nodeValue;
+     let color = document.getElementById('colorInputColor').nodeValue;
      document.styleSheets.backgroundColor = color;
      document.getElementById('colorInputText').value = color;
  }
